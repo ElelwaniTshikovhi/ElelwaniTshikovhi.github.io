@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2022-02-08
-img: hr case study.png.
+img: hrcasestudy.png
 alt: image-alt
 project-date: July 2022
 category: Hr case
