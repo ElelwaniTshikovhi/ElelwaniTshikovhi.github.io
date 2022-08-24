@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 2
+date: 2022-06-06
+img: R.png
+alt: image-alt
+project-date: june 2022
+category: Twitter sentimental analysis ML
+description: EDSA is challenging you during the Classification Sprint with the task of creating a Machine Learning model that is able to classify whether or not a person believes in climate change, based on their novel tweet data.
+
+Providing an accurate and robust solution to this task gives companies access to a broad base of consumer sentiment, spanning multiple demographic and geographic categories - thus increasing their insights and informing future marketing strategies.
+---
