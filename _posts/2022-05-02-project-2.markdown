@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 date: 2022-05-02
-img: electricity-pylon-3916954_960_720j.png
+img: electricity-pylon-3916954_960_720.png
 alt: image-alt
 project-date: May 2022
 category: Web Development
