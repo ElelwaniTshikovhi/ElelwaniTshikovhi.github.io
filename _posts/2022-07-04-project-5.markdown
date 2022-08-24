@@ -2,7 +2,7 @@
 layout: default
 modal-id: 5
 date: 2022-07-04
-img: MicrosoftTeams-image.png.
+img: MicrosoftTeams-image.png
 alt: image-alt
 project-date: July 2022
 client: streaming services
