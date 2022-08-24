@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 5
+date: 2022-07-04
+img: MicrosoftTeams-image.png.
+alt: image-alt
+project-date: July 2022
+client: streaming services
+category: Recommemder systems 
+description: EDSA Movie Recommendation 2022. Recommender systems are socially and economically critical to ensure that individuals can make optimised choices surrounding the content they engage with on a daily basis. Challenged to constructing a recommendation algorithm based on content or collaborative filtering, capable of accurately predicting how a user will rate a movie they have not yet viewed, based on their historical preferences.
+
+The Team is providing an accurate and robust solution to this challenge has immense economic potential, with users of the system being personalised recommendations - generating platform affinity for the streaming services which best facilitates their audience's viewing.
+---
