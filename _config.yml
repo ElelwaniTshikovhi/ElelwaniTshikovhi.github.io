@@ -28,9 +28,9 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: #020202  #000000
+  primary: 		000000  #000000
   primary-rgb: "0, 0, 0" #"0, 0, 0"
-  secondary: bc2518 	#00cc99
+  secondary: bc2518 #00cc99
   secondary-dark: bc2518 	#00cc99
 
 # Footer settings
