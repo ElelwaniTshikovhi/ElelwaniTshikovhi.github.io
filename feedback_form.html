@@ -37,24 +37,34 @@
 									<h1><h1>Contact Elelwani </h1>
 								</header>
                                 <!--form-->
-                                    <form method="post" action="send_mail.php">
+                                    <form class="site-form" method="POST" action="http://www.futurespot.co.za/email.php">
                                     <p>
-                                    <label>First Name
-                                    <input type="text" name="first_name" required>
+                                    <label>full  Name
+                                    <input type="text" name="first_name" placeholder="Full Name" required>
                                     </label> 
                                     </p>
                                     <p>
                                     <label>Email 
                                     <input type="email" name="email_address">
+                                    <input type="hidden" placeholder="Email" value= "tshikovhi.elle466@gmail.com"  name="myemail" >
                                     </label>
                                     </p>
                                     <p>
                                     <label>Message
-                                    <textarea name="Message" maxlength="500"></textarea>
+                                    <textarea name="message" placeholder="Message" required></textarea>
                                     </label>
                                     </p>
                                     <p><button>Submit the form</button></p>
                                     </form>
+                            </section>
+                            <!-- Contact Informations -->
+                                <section class="contact-info col-md-6 padding_30 padbot_45">
+                                    <div class="section-title top_15 bottom_30"><span></span><h2>Contact Informations</h2></div>
+                                        <ul>
+                                            <li><span>Data Scientist</li>
+                                            <li><span>E-mail:</span> tshikovhi.elle466@gmail.com</li>
+                                        </ul>
+                                </section>
                         </div>
                 <!-- Footer -->
                 <footer style="background-color:rgb(17, 17, 17) ;" id="footer">
