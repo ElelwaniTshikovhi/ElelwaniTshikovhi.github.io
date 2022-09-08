@@ -37,24 +37,24 @@
 									<h1><h1>Contact Elelwani </h1>
 								</header>
                                 <!--form-->
-                                    <form class="site-form" method="POST" action="send_mail.php">
-                                    <p>
-                                    <label>full  Name
-                                    <input type="text" name="first_name" placeholder="Full Name" required>
-                                    </label> 
-                                    </p>
-                                    <p>
-                                    <label>Email 
-                                    <input type="email" name="email_address">
-                                    <input type="hidden" placeholder="Email" value= "tshikovhi.elle466@gmail.com"  name="myemail" >
-                                    </label>
-                                    </p>
-                                    <p>
-                                    <label>Message
-                                    <textarea name="message" placeholder="Message" required></textarea>
-                                    </label>
-                                    </p>
-                                    <p><button>Submit the form</button></p>
+                                    <form action="contact.php" method="post" class="form-signin">
+                                        <div class="form-label-group" style="display: none;" >
+                                            <label for="inputEmail">From <span style="color: #FF0000">*</span></label>
+                                            <input type="text" name="fromEmail" id="fromEmail" class="form-control" placeholder="Email address" value="tshikovhiej@outlook.com" required autofocus>
+                                        </div> <br/>
+                                        <div class="form-label-group hidd" >
+                                            <label for="inputEmail">From <span style="color: #FF0000">*</span></label>
+                                            <input type="text" name="toEmail" id="toEmail" class="form-control" placeholder="Your Email" required>
+                                        </div> <br/>
+                                        <label for="inputPassword">Subject <span style="color: #FF0000">*</span></label>
+                                        <div class="form-label-group">
+                                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" required>
+                                        </div><br/>
+                                        <label for="inputPassword">Message <span style="color: #FF0000">*</span></label>
+                                        <div class="form-label-group">
+                                            <textarea  id="message" name="message" class="form-control" placeholder="Message" required ></textarea>
+                                        </div> <br/>
+                                        <button type="submit" name="sendMailBtn" class="btn btn-lg btn-primary btn-block text-uppercase" >Send Message</button>
                                     </form>
                             </section>
                             <!-- Contact Informations -->
